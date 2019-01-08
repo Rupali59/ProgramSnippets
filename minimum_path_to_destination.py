@@ -1,3 +1,4 @@
+# PROBLEM STATEMENT - Given the distance matrix, find the shortest distance and path traced from source to destination.
 
 import math
 import os
@@ -6,6 +7,7 @@ import re
 import sys
 
 def distance_to_destination(source, destination, path_array, distance_covered, path_travelled):
+    # Not the most optimum solution
     if(source == destination):
         print("distance_to_destination("+str(source)+", "+str(destination)+", path_array, " + str(distance_covered) + ", " +str(path_travelled)+")")
         return distance_covered,path_travelled;
