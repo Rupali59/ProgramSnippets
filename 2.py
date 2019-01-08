@@ -1,4 +1,5 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
+# PROBLEM STATEMENT - Given a certain number of cars and the trip time for each, print out the min time in which given number of trips can be completed
 import math
 import os
 import random
@@ -6,6 +7,7 @@ import re
 import sys
 
 def effecientCabScheduling(N, k, arr):
+    # This is NOT an completely effecient soution. A better solution can be found out by Dynamic Programming.
     t = 0
     cab_travel_duration = sorted(arr)
     cab_current_status = [0]*k
