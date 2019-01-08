@@ -1,0 +1,32 @@
+//AUTO-SUGGESTOR
+1->abc
+2->def
+
+12 ->[abc][def] => [] 
+be 
+
+122
+bee
+
+
+Dictionary - [
+"adapt"
+"adept",
+"aerola"
+"be"
+"bee"
+"before"
+
+]
+
+
+1
+Posiibiility - a,b,c
+12 
+Posiibiility - ad, ae, af, be , ce
+122
+Posiibiility - add, ade , bed, bee, bef, ced, cee, cef
+
+
+
+

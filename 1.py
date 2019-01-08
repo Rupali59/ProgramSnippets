@@ -1,0 +1,27 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import math
+import os
+import random
+import re
+import sys
+
+def easyCount(n, coordinates):
+    markers = []
+    for i in range(n):
+        [A,B] = coordinates[i]
+        for j in range(A,B+1):
+            markers.append(j)
+
+    return len(set(markers))
+
+if __name__ == '__main__':
+    # arr_count = int(str(input()).strip())
+
+    # arr = []
+
+    # for _ in range(arr_count):
+    #     arr_item = [int(x) for x in str(raw_input()).split()]
+    #     arr.append(arr_item)
+
+    res = easyCount(arr_count, arr)
+    print(res)
